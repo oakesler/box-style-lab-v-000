@@ -67,4 +67,6 @@ html {
   background-image: url("images/white-wood.jpg");
 }
 
-section title
+section title {
+  background: linear-gradient(#e66465, #9198e5);
+}
