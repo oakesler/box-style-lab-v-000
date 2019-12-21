@@ -5,6 +5,7 @@ body, html {
   margin: 0 auto;
   display: block;
   text-align: center;
+  background-image: url("https://github.com/oakesler/box-style-lab-v-000/blob/master/images/white-wood.jpg?raw=true");
 }
 
 .container, h1 {
@@ -20,6 +21,8 @@ h4 {
   display: inline-block;
   padding: 5px;
   margin: 20px 0 0 0;
+  background: linear-gradient(#e66465, #9198e5);
+  
 }
 
 .amiable {
@@ -63,10 +66,16 @@ section {
   box-shadow: -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44; 
 }
 
-html {
-  background-image: url("images/white-wood.jpg");
+body {
+  background-image: url("images/whitewood.jpg");
 }
 
 section title {
   background: linear-gradient(#e66465, #9198e5);
 }
+
+.container {
+  box-shadow: -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44; 
+  
+}
+
