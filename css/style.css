@@ -27,7 +27,6 @@ h4 {
   border: 1px solid #22aa44;
   box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
   background-color: #44cc66;
-  /*background: linear-gradient(#228B22, #44cc66);*/
 }
 
 h4.amiable{
@@ -44,12 +43,14 @@ h4.dubious{
 
 .indifferent {
   background-color: #dddd22;
-  /*background: linear-gradient(#dddd22, #666600);*/
+  box-shadow: -1px 1px #c2b280, -2px 2px #c2b280, -3px 3px #c2b280, -4px 4px #c2b280, -5px 5px #c2b280; 
+  border: 1px solid #c2b280;
 }
 
 .dubious {
   background-color: #dd4444;
-  /*background: linear-gradient(#dd4444, #666600);*/
+  border: 1px solid #b22222;
+  box-shadow: -1px 1px #b22222, -2px 2px #b22222, -3px 3px #b22222, -4px 4px #b22222, -5px 5px #b22222;
 }
 
 .column {
@@ -74,15 +75,15 @@ img {
   border: solid;
 }
 
-section {
+/*section {
   box-shadow: -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44; 
-}
+}*/
 
 /*section title {
   background: linear-gradient(#e66465, #9198e5);
 }*/
 
-.container {
+/*.container {
   box-shadow: -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44; 
-}
+}*/
 
